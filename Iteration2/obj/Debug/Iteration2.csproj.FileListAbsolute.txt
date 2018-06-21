@@ -1,0 +1,12 @@
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\Iteration2.exe.config
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\Iteration2.exe
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\Iteration2.pdb
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\obj\Debug\Iteration2.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\obj\Debug\Iteration2.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\obj\Debug\Iteration2.exe
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\obj\Debug\Iteration2.pdb
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\obj\Debug\Iteration2.csproj.CopyComplete
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\ClassLibrary1.dll
+C:\Users\Utilisateur\source\repos\ConsoleApp4\Iteration2\bin\Debug\ClassLibrary1.pdb
