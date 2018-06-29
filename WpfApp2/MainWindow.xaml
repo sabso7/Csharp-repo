@@ -1,0 +1,76 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Background ="WhiteSmoke">
+
+        <Image x:Name="imageMetro" Source="https://www.petitfute.com/medias/professionnel/1591582/premium/600_450/ae2b4acb8c15aee686d58458987d613a_metromobilite_logo.jpg" Margin="-27,4,565,373" />
+
+        <StackPanel
+            HorizontalAlignment="center"
+            TextBlock.TextAlignment="Center"
+            Margin="0,0,386,0" Width="406">
+
+            <TextBlock 
+                Text="BusStop" 
+                FontSize="40"
+                FontFamily="LatoRegular"/>
+
+            <TextBlock
+                Text="Trouvez votre BUS "
+                FontSize="15"
+                FontFamily="LatoRegular"/>
+
+            <Label HorizontalAlignment  ="Center">latitude</Label>
+
+            <TextBox
+                x:Name="latitude"
+                Width="300">
+                45.176494599999984
+            </TextBox>
+
+            <Label HorizontalAlignment  ="Center">longitude</Label>
+            <TextBox
+               x:Name="longitude"
+                Width="300">
+                5.709360123
+            </TextBox>
+
+            <Label HorizontalAlignment  ="Center">distance</Label>
+            <TextBox
+               x:Name="distance"
+                Width="300">
+                1000
+            </TextBox>
+
+            <Button x:Name="MonPremierBouton" Width="70" Margin="20" Click="boutonClick" >Find</Button>
+
+        </StackPanel>
+        <StackPanel
+            TextBlock.TextAlignment="Center"
+            HorizontalAlignment="Right" Width="381">
+
+            <StackPanel>
+                <Border Background="White" Height="417">
+
+                    <ListBox x:Name="listbus" Margin="-398,259,397,40"   MouseDoubleClick="MouseDoubleClick" />
+
+                </Border>
+            </StackPanel>
+
+        </StackPanel>
+        <StackPanel Margin="411,0,0,0" Height="419" VerticalAlignment="Top" HorizontalAlignment="Left" Width="381">
+
+            <m:Map CredentialsProvider="Auxjw1nIW2ogZ_toOhLinNse5AEG4w-QjBb-yFRrJGhPKao0SNH-trdH6lZju89I"   x:Name="map" ZoomLevel="15" Height="417" RenderTransformOrigin="0.5,0.5" Margin="0,0,10,0" />
+
+        </StackPanel>
+        
+  
+    </Grid>
+</Window>

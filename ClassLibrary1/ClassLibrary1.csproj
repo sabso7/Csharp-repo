@@ -43,6 +43,7 @@
     <Compile Include="AppelApi.cs" />
     <Compile Include="BusDetails.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Contexte.cs" />
     <Compile Include="ListeJson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
